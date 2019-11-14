@@ -17,7 +17,7 @@ class CounterHistory extends Component {
 
     getdata=()=>{
         const _this=this;
-        axios.get('http://localhost:3000/counter')
+        axios.get('http://120.79.176.26:3000/counter')
             .then(function (response) {
                 console.log(response)
                 _this.setState({
@@ -36,7 +36,7 @@ class CounterHistory extends Component {
         axios({
             method: 'post',
             headers:{'Content-type':'application/json'},
-            url: 'http://localhost:3000/counter/del',
+            url: 'http://120.79.176.26:3000/counter/del',
             data: {
                 id: id,
             }

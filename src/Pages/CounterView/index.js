@@ -34,7 +34,7 @@ class CounterView extends Component {
                 axios({
                     method: 'post',
                     headers:{'Content-type':'application/json'},
-                    url: 'http://localhost:3000/counter/add',
+                    url: 'http://120.79.176.26:3000/counter/add',
                     data: {
                         counter: input+"="+value,
                     }

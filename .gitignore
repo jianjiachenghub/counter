@@ -10,6 +10,11 @@
 
 # production
 /build
+.idea
+
+.vscode
+
+.history
 
 # misc
 .DS_Store
